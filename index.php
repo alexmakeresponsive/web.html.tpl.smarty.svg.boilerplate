@@ -32,6 +32,7 @@ switch ($urlPageLevel0Name) {
 
 // global vars
 $smarty->assign('name', 'Alex');
+$smarty->assign('pathDocumentRoot', __DIR__);
 
 require_once __DIR__ . '/source/templates/page/' . $pageDirName . '/index.php';
 
