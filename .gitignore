@@ -1,0 +1,12 @@
+.DS_Store
+
+/vendor
+/node_modules
+
+templates_c
+asset
+
+package.json
+composer.json
+
+server.txt
